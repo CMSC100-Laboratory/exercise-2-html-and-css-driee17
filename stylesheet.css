@@ -52,3 +52,28 @@ nav ul li a {
   height: 680px;
   width: 1050px;
 }
+
+section {
+  padding: 2rem 0;
+}
+section .container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* for projects */
+#projects.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.project {
+  flex: 10;
+  background: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
